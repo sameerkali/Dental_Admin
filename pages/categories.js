@@ -125,7 +125,7 @@ function Categories({swal}) {
             className="btn-default text-sm mb-2">
             Add new property
           </button>
-          {properties.length > 0 && properties.map((property,index) => (
+          {properties.map((property,index) => (
             <div key={property.name} className="flex gap-1 mb-2">
               <input type="text"
                      value={property.name}
